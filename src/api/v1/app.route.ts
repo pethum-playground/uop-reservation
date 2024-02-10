@@ -1,8 +1,8 @@
 import {Router} from "express";
-import reservationRoute from "./routes/reservation.route";
+import hanthanaGuideRoute from "./routes/hanthanaGuideRoute";
 
 const appRouter: Router = Router();
 
-appRouter.use("/reservation", reservationRoute);
+appRouter.use("/hanthana-guide", hanthanaGuideRoute);
 
 export default appRouter;
