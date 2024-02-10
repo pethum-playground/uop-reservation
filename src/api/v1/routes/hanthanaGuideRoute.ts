@@ -5,5 +5,6 @@ const hanthanaGuideRoute: Router = Router();
 const controller = new HanthanaGuideController();
 
 hanthanaGuideRoute.post('/', controller.create);
+hanthanaGuideRoute.get('/', controller.getAll);
 
 export default hanthanaGuideRoute;
