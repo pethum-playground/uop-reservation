@@ -23,7 +23,7 @@ const HanthanaGuideSchema: Schema = new Schema({
     food: { type: String, required: true },
     pointOfContact: { type: String, required: true },
     date: { type: Date, required: true },
-    guide: { type: Boolean, required: true }
+    guide: { type: String, required: true }
 });
 
 const HanthanaGuide = mongoose.model<IHanthanaGuide>('HanthanaGuide', HanthanaGuideSchema);
