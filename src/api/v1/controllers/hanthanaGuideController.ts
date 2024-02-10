@@ -9,7 +9,7 @@ export default class HanthanaGuideController {
       res.status(201).send(newGuide);
   }
 
-  public async getAll(req: Request, res: Response): Promise<void> {
+  public async fetch(req: Request, res: Response): Promise<void> {
       const guides = await HanthanaGuide.find();
       res.status(200).send(guides);
   }
