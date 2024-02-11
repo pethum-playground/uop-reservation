@@ -1,5 +1,5 @@
 import {Request, Response} from "express";
-import HanthanaGuide from "../../../models/hanthana-guide";
+import HanthanaGuide from "../../../models/hanthana.guide";
 
 export default class HanthanaGuideController {
 

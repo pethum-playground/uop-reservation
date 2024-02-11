@@ -1,5 +1,5 @@
 import {Router} from "express";
-import HanthanaGuideController from "../controllers/hanthanaGuideController";
+import HanthanaGuideController from "../controllers/hanthanaGuide.controller";
 
 const hanthanaGuideRoute: Router = Router();
 const controller = new HanthanaGuideController();
