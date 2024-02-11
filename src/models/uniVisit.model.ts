@@ -24,6 +24,6 @@ const UniVisitSchema: Schema = new Schema({
     guide: { type: Boolean, required: true }
 });
 
-const UniVisit = mongoose.model<IUniVisit>('UniVisit', UniVisitSchema);
+const UniVisitModel = mongoose.model<IUniVisit>('UniVisit', UniVisitSchema);
 
-export default UniVisit;
+export default UniVisitModel;

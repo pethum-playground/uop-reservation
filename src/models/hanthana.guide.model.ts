@@ -22,6 +22,6 @@ const HanthanaGuideSchema: Schema = new Schema({
     guide: { type: Boolean, required: true }
 });
 
-const HanthanaGuide = mongoose.model<IHanthanaGuide>('HanthanaGuide', HanthanaGuideSchema);
+const HanthanaGuideModel = mongoose.model<IHanthanaGuide>('HanthanaGuide', HanthanaGuideSchema);
 
-export default HanthanaGuide;
+export default HanthanaGuideModel;
